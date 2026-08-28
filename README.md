@@ -14,7 +14,7 @@ To write a yacc program to recognize a valid arithmetic expression that uses ope
 8.	Enter an arithmetic expression as input and the tokens are identified as output.
 # PROGRAM
 
-### cdex3.l
+### exp3_0074.l file
 ```
 %{
 #include "y.tab.h"
@@ -31,7 +31,7 @@ digit   [0-9]
 %%
 int yywrap() { return 1; }
 ```
-### cdex3.y file 
+### exp3_0074.y file 
 ```
 %{
 #include <stdio.h>
@@ -72,7 +72,7 @@ int main() {
 ```
 # OUTPUT
 
-<img width="734" height="481" alt="image" src="https://github.com/user-attachments/assets/bc1d0069-3a88-415c-8fae-95d0c39f1150" />
+<img width="572" height="476" alt="image" src="https://github.com/user-attachments/assets/bf67f928-f5c3-4448-bdc2-92cf3a5cbf06" />
 
 
 # RESULT
